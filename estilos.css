@@ -1,0 +1,60 @@
+.hero{
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url("barber.jpg");
+  background-size: cover;
+  background-position: center;
+  color: rgb(191, 167, 167);
+  text-align: center;
+  padding: 150px 20px;
+}
+
+.body-fondo {
+  background: linear-gradient(135deg, #f0c27b, #4b1248);
+  min-height: 100vh;
+  color: #fff; 
+  padding-top: 70px; 
+}
+
+.card, table {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.table {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.btn-primary:hover {
+  background-color: #ff4d4d;
+  border-color: #ff4d4d;
+  transition: 0.3s;
+}
+
+footer {
+  margin-top: 50px;
+  background: #2c2c2c;
+}
+
+@media(min-width:992px){
+  .navbar-nav { display: none; }
+  .navbar-collapse.collapse.show .navbar-nav {
+    display: flex !important;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  flex: 1 1 100%;
+  padding: 1rem;
+}
+@media (min-width: 768px) {
+  .item {
+    flex: 1 1 50%;
+  }
+}
